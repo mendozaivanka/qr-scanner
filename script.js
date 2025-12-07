@@ -2,7 +2,7 @@
 const user_id = localStorage.getItem("user_id") || "TEST_USER";
 
 // backend endpoint
-const API_URL = "http://beautysolutionsasia.online/api/link_qr.php";
+const API_URL = "http://beautysolutionsasia.online/link_qr.php";
 
 function activateCard(qr_value) {
     const message = document.getElementById("message");
